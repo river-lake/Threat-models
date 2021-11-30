@@ -1,16 +1,27 @@
 {
   "summary": {
-    "title": "example",
-    "owner": ""
+    "owner": "Me",
+    "description": "This is an example threat model.",
+    "title": "example"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "fimuni"
+      }
+    ],
     "diagrams": [
       {
-        "title": "example diagram",
+        "title": "diagram1",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0
+      },
+      {
+        "title": "diagram2",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
       }
-    ]
+    ],
+    "reviewer": "Me"
   }
 }
