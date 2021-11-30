@@ -14,7 +14,421 @@
       {
         "title": "diagram1",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 48,
+                "y": 66
+              },
+              "angle": 0,
+              "id": "d6dc53fc-7aef-4a3a-8b0b-2025f4daa32d",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Ads Manager"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 341,
+                "y": 52
+              },
+              "angle": 0,
+              "id": "20f22154-3565-452a-b4d9-64b92b7f7154",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Management\nConsole"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 320,
+                "y": 236
+              },
+              "angle": 0,
+              "id": "555b16e1-922f-40e5-bd89-d7a97c8007ca",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "API"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 48,
+                "y": 248
+              },
+              "angle": 0,
+              "id": "911275a1-802f-444a-8339-bd5f9dad34d5",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Automation"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 516,
+                "y": 236
+              },
+              "angle": 0,
+              "id": "ce4ea5e0-b5c3-4677-a160-b71d5f107853",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Ads Server"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 706,
+                "y": 47
+              },
+              "angle": 0,
+              "id": "bfa26c5a-22a9-4db8-97e7-857ae166e0dd",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Payment Gateway"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 704,
+                "y": 222
+              },
+              "angle": 0,
+              "id": "8ab5fb69-5ffe-495e-8c58-d9f434937b8c",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Advertised Web Site"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 292,
+                "y": 407
+              },
+              "angle": 0,
+              "id": "a5958b51-c7c1-4661-a309-3aa67038f0c3",
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Infra Admin"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 551,
+                "y": 398
+              },
+              "angle": 0,
+              "id": "99ac293a-505b-4662-894b-b0595d506484",
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Developer"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d6dc53fc-7aef-4a3a-8b0b-2025f4daa32d"
+              },
+              "target": {
+                "id": "20f22154-3565-452a-b4d9-64b92b7f7154"
+              },
+              "vertices": [
+                {
+                  "x": 275,
+                  "y": 38
+                }
+              ],
+              "id": "4e4fbc30-8744-4cd7-8da3-f32410314bf2",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4906337728746329,
+                    "offset": 22.084831585421778
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Instructions",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
+              "hasOpenThreats": false,
+              "isPublicNetwork": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "20f22154-3565-452a-b4d9-64b92b7f7154"
+              },
+              "target": {
+                "id": "d6dc53fc-7aef-4a3a-8b0b-2025f4daa32d"
+              },
+              "vertices": [
+                {
+                  "x": 276,
+                  "y": 149
+                }
+              ],
+              "id": "cd9aca79-6f15-49f7-9400-5121033cc962",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5046087345807571,
+                    "offset": -18.955401151981743
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Response",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "isPublicNetwork": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "911275a1-802f-444a-8339-bd5f9dad34d5"
+              },
+              "target": {
+                "id": "555b16e1-922f-40e5-bd89-d7a97c8007ca"
+              },
+              "vertices": [
+                {
+                  "x": 271,
+                  "y": 234
+                }
+              ],
+              "id": "95a937ee-9e4b-4947-a524-2d6420faa7c1",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5284740623863203,
+                    "offset": -12.039190217809828
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "API call",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "isPublicNetwork": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "555b16e1-922f-40e5-bd89-d7a97c8007ca"
+              },
+              "target": {
+                "id": "911275a1-802f-444a-8339-bd5f9dad34d5"
+              },
+              "vertices": [
+                {
+                  "x": 273,
+                  "y": 344
+                }
+              ],
+              "id": "cf121e90-4e0d-45af-98a0-d484f2a01d32",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4298162151112364,
+                    "offset": -15.136957310757543
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Response",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "hasOpenThreats": false,
+              "isPublicNetwork": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 1036
+        }
       },
       {
         "title": "diagram2",
