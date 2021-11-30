@@ -25,7 +25,7 @@
               },
               "position": {
                 "x": 48,
-                "y": 66
+                "y": 65
               },
               "angle": 0,
               "id": "d6dc53fc-7aef-4a3a-8b0b-2025f4daa32d",
@@ -36,9 +36,10 @@
                   "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
                   "title": "An attacker may pretend to be an Ads Manager",
                   "type": "Spoofing",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
-                  "description": "Management Console will authenticate Ads Manager using username and password."
+                  "description": "Management Console will authenticate Ads Manager using username and password.",
+                  "mitigation": "Management Console will authenticate Ads Manager using username and password"
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
@@ -96,8 +97,8 @@
                 "height": 100
               },
               "position": {
-                "x": 341,
-                "y": 52
+                "x": 349,
+                "y": 48
               },
               "angle": 0,
               "id": "20f22154-3565-452a-b4d9-64b92b7f7154",
