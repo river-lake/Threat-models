@@ -1,1 +1,1 @@
-This repository contains example of a threat model created with OWASP Threat Dragon.
+This repository contains an example of a threat model created with the OWASP Threat Dragon.
