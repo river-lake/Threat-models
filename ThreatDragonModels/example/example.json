@@ -61,6 +61,20 @@
                   "type": "Information disclosure",
                   "title": "An attacker may reveal payment data",
                   "description": "An attacker may reveal payment data"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Low",
+                  "title": "An attacker may flood Management Console",
+                  "description": "An attacker may flood Management Console",
+                  "type": "Denial of service"
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "title": "An attacker may exploit SQLi or XSS",
+                  "description": "An attacker may exploit SQLi or XSS"
                 }
               ],
               "attrs": {
