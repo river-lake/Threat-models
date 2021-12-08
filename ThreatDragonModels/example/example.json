@@ -24,8 +24,8 @@
                 "height": 80
               },
               "position": {
-                "x": 48,
-                "y": 65
+                "x": 51,
+                "y": 48
               },
               "angle": 0,
               "id": "d6dc53fc-7aef-4a3a-8b0b-2025f4daa32d",
@@ -83,7 +83,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Ads Manager"
+                  "text": "User"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
@@ -187,111 +187,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Ads Server"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 706,
-                "y": 47
-              },
-              "angle": 0,
-              "id": "bfa26c5a-22a9-4db8-97e7-857ae166e0dd",
-              "z": 6,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Payment Gateway"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 704,
-                "y": 222
-              },
-              "angle": 0,
-              "id": "8ab5fb69-5ffe-495e-8c58-d9f434937b8c",
-              "z": 7,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Advertised Web Site"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 292,
-                "y": 407
-              },
-              "angle": 0,
-              "id": "a5958b51-c7c1-4661-a309-3aa67038f0c3",
-              "z": 8,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Infra Admin"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 551,
-                "y": 398
-              },
-              "angle": 0,
-              "id": "99ac293a-505b-4662-894b-b0595d506484",
-              "z": 9,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Developer"
+                  "text": "Mail Server"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -322,7 +218,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "Instructions",
+                      "text": "Send email",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -365,7 +261,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "Response",
+                      "text": "Receive email",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -408,7 +304,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "API call",
+                      "text": "Send email",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -451,7 +347,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "Response",
+                      "text": "Receive email",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -494,7 +390,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "API call",
+                      "text": "Send email",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -534,7 +430,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Response",
+                      "text": "Receive email",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -585,6 +481,198 @@
               "id": "80989d0d-d12f-4c26-a94d-4f3590ff15c1",
               "z": 16,
               "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "555b16e1-922f-40e5-bd89-d7a97c8007ca"
+              },
+              "target": {
+                "id": "ce4ea5e0-b5c3-4677-a160-b71d5f107853"
+              },
+              "vertices": [
+                {
+                  "x": 477,
+                  "y": 243
+                }
+              ],
+              "id": "bd747dbd-923a-413a-a525-dd8b958a2c9b",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4882779817805466,
+                    "offset": -20.5198698272262
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Send email",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "ce4ea5e0-b5c3-4677-a160-b71d5f107853"
+              },
+              "target": {
+                "id": "555b16e1-922f-40e5-bd89-d7a97c8007ca"
+              },
+              "vertices": [
+                {
+                  "x": 480,
+                  "y": 329
+                }
+              ],
+              "id": "f7316bd4-5106-4776-b211-eff62abac344",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5711565473662256,
+                    "offset": -28.380557372069745
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Receive email",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 18,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 495,
+                "y": 62
+              },
+              "angle": 0,
+              "id": "62063573-2b38-4054-b53d-388f40bf14e2",
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Store email"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "62063573-2b38-4054-b53d-388f40bf14e2"
+              },
+              "target": {
+                "id": "ce4ea5e0-b5c3-4677-a160-b71d5f107853"
+              },
+              "vertices": [
+                {
+                  "x": 531,
+                  "y": 179
+                }
+              ],
+              "id": "86bc6396-70c6-409e-b9c5-766bd527e86d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Retrieve email",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 20,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "ce4ea5e0-b5c3-4677-a160-b71d5f107853"
+              },
+              "target": {
+                "id": "62063573-2b38-4054-b53d-388f40bf14e2"
+              },
+              "vertices": [
+                {
+                  "x": 628,
+                  "y": 197
+                },
+                {
+                  "x": 615,
+                  "y": 159
+                }
+              ],
+              "id": "188363ca-38fe-4e3a-82e1-245ecc51c164",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Store email",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 21,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
